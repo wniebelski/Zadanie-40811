@@ -1,19 +1,21 @@
 form {
     background-color: #213b50;
-    color: white;
+    color: #fff;
     padding: 20px;
 }
 
+
 input,
-style,
+select,
 textarea {
     background-color: #2b4a64;
-    color:  white;
+    color: #fff;
     width: 50%;
     margin-bottom: 10px;
     border: 1px solid #2b4a64;
     padding: 5px;
 }
+
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -21,11 +23,12 @@ input[type="checkbox"] {
 }
 
 input:focus,
-style:focus
+select:focus,
 textarea:focus {
-    background-color: 4e708c;
-    border: 1px solid white;
+    background-color: #4e708c;
+    border: 1px solid #fff;
 }
+
 
 label {
     display: block;
@@ -35,23 +38,17 @@ label {
 label[for*="male"],
 label[for="agreement"] {
     display: inline;
-    
+}
+
+input[type="submit"] {
+    background-color: #1ac056;
+    width: auto;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 input[type="submit"]:hover {
     background-color: #46e881;
 }
-
-input[type="submit"]{
-    background-color: #1ac056;
-    width: auto;
-    cursor: pointer;
-    padding:  10px 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-
-
-
-
